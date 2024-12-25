@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import NavbarContainer from "@/components/Navbar/NavbarContainer";
 import PromotionCarousel from "@/components/home/main/PromotionCarousel";
+import { Input } from "@/components/ui/input";
 export default function Home() {
   return (
     <>
@@ -51,7 +52,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative">
                   <MapPin className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
-                  <input
+                  <Input
                     type="text"
                     placeholder="From"
                     className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -59,7 +60,7 @@ export default function Home() {
                 </div>
                 <div className="relative">
                   <MapPin className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
-                  <input
+                  <Input
                     type="text"
                     placeholder="To"
                     className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -69,7 +70,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative">
                   <Calendar className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
-                  <input
+                  <Input
                     type="text"
                     placeholder="Depart"
                     className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -77,7 +78,7 @@ export default function Home() {
                 </div>
                 <div className="relative">
                   <Calendar className="absolute left-3 top-3 text-gray-400 w-5 h-5" />
-                  <input
+                  <Input
                     type="text"
                     placeholder="Return"
                     className="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"

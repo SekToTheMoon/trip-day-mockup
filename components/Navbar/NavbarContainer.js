@@ -10,7 +10,7 @@ const NavbarContainer = () => {
     <nav className="container mx-auto px-4 py-4 flex items-center justify-between bg-transparent ">
       <div className="flex items-center gap-4">
         <IconNav />
-        <Suspense fallback={<Input disabled={true} className="max-w-xs" />}>
+        <Suspense fallback={<div>loading</div>}>
           <SearchInput />
         </Suspense>
       </div>
