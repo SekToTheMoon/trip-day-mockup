@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Input } from "../ui/input";
 import { useEffect, useState } from "react";
