@@ -13,12 +13,12 @@ const ProfileNav = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="bg-white/">
+        <Button variant="ghost" className="bg-white/40">
           <Avatar className="h-8 w-8">
             <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
             <AvatarFallback>CN</AvatarFallback>
           </Avatar>
-          <div className="hidden md:block">Trip-day Member</div>
+          <div className="hidden  font-semibold md:block">Trip-day Member</div>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">

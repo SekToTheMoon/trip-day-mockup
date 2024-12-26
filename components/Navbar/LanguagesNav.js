@@ -11,7 +11,7 @@ const LanguagesNav = () => {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="outline">
+        <Button variant="ghost" className="">
           <DefaultFlag />
         </Button>
       </PopoverTrigger>

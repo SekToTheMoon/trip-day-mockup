@@ -7,7 +7,7 @@ import { Suspense } from "react";
 
 const NavbarContainer = () => {
   return (
-    <nav className="container mx-auto px-4 py-4 flex items-center justify-between bg-transparent ">
+    <nav className="container mx-auto px-4 py-4 flex items-center justify-between bg-transparent text-white">
       <div className="flex items-center gap-4">
         <IconNav />
         <Suspense fallback={<div>loading</div>}>
